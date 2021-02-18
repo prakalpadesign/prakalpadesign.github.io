@@ -1,0 +1,146 @@
+@@charset "UTF-8";
+abbr, address, article, aside, audio, b, blockquote, body, caption, cite, code, dd, del, dfn, dialog, div, dl, dt, em, fieldset, figure, footer, form, header, hgroup, html, i, iframe,
+img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: 0 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  outline: 0;
+}
+
+article, aside, dialog, figure, footer, header, hgroup, hgroup, main, nav, section {
+  display: block;
+}
+
+html{
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-vertical;
+  box-sizing: border-box;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+body{
+  line-height: 1;
+}
+
+blockquote, q{
+  quotes: none;
+}
+
+ol, ul{
+  list-style: none;
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+  content: '';
+  content: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+  -ms-touch-action: inherit;
+  touch-action: inherit;
+}
+@font-face {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: futura-pt,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+p{
+  font-family: futura-pt
+  font: normal normal 300 26px/34px Futua PT;
+  letter-spacing: -0.78px;
+  opacity: 1;
+  color: #5C5C5C;
+  font-size: 2.3vmin;
+}
+
+
+
+.column{
+  -ms-flex: 65%, 35%;
+  flex: 65%;
+  max-width: 65%;
+  padding: 0 4px;
+}
+
+.column img{
+  margin-top: 20px;
+  margin-left: 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (min-width: 800px){
+  .column{
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@@media screen and (max-width: 600px) {
+  .column{
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+}
+
+//Media Queries
+
+//Extra Small devices (potrait phones)
+@media(min-width: 320px){
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+
+ }
+
+#more{
+  display: none;
+}
