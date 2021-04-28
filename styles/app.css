@@ -188,3 +188,86 @@ p{
   font-family: futura-pt;
   padding: 16px 32px;
 }
+
+p.example {
+
+}
+
+@media screen and (min-width: 601px) {
+  p.example {
+    font-size: 50px;
+    font-family: bebas-neue-pro; f
+    ont-weight: 300;
+    font-style: normal;
+    text-align:left;
+    color: #575757;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.example {
+    font-size: 20px;
+    font-family: bebas-neue-pro; f
+    ont-weight: 300;
+    font-style: normal;
+    text-align:left;
+    color: #575757;
+  }
+}
+
+
+p.heading {
+
+}
+
+@media screen and (min-width: 601px) {
+  p.heading {
+    font-family: futura-pt;
+    text-align:left;
+    margin-top: 1%;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 4px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.heading {
+    font-family: futura-pt;
+    text-align:left;
+    margin-top: 1%;
+    font-weight: 100;
+    font-size: 6px;
+    letter-spacing: 2.5px;
+  }
+}
+
+p.know {
+
+}
+
+@media screen and (min-width: 601px) {
+  p.know {
+    font-family: futura-pt;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 10%;
+    text-align:left;
+    font-size: 20px;
+    color: #575757;
+    letter-spacing: 4px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.know {
+    font-family: futura-pt;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 10%;
+    text-align:left;
+    font-size: 9px;
+    color: #575757;
+    letter-spacing: 4px;
+  }
+}
