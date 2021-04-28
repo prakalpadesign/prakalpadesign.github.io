@@ -237,7 +237,7 @@ p.heading {
     text-align:left;
     margin-top: 1%;
     font-weight: 100;
-    font-size: 6px;
+    font-size: 7px;
     letter-spacing: 2.5px;
   }
 }
@@ -268,6 +268,6 @@ p.know {
     text-align:left;
     font-size: 9px;
     color: #575757;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
   }
 }
