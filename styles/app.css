@@ -271,3 +271,26 @@ p.know {
     letter-spacing: 2px;
   }
 }
+
+
+@media screen and (min-width: 601px) {
+  p.about {
+    font-family: futura-pt;
+    margin-top: 5%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    color: #575757;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.about {
+    font-family: futura-pt;
+    margin-top: 5%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: #575757;
+  }
+}
